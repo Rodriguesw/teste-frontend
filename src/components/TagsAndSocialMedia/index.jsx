@@ -11,30 +11,30 @@ export function TagsAndSocialMedia() {
   return (
     <div className="containerTagsAndSocialMedia">
       <div className="containerTags">
-        <p>TAGS:</p>
-        <span>Vendas</span>
-        <span>Aplicativo</span>
-        <span>Legislação</span>
+        <p className="flex">TAGS:</p>
+        <span className="flex">Vendas</span>
+        <span className="flex">Aplicativo</span>
+        <span className="flex">Legislação</span>
       </div>
 
       <div className="containerSocialMedia">
-        <a href="#">
+        <a href="#" className="flex">
           <img src="/images/svg/icon-tagsAndSocialMedia-whatsapp.svg" alt="" />
         </a>
-        <a href="#">
+        <a href="#"className="flex">
           <img src="/images/svg/icon-tagsAndSocialMedia-facebook.svg" alt="" />
         </a>
-        <a href="#">
+        <a href="#"className="flex">
           <img src="/images/svg/icon-tagsAndSocialMedia-x.svg" alt="" />
         </a>
-        <a href="#">
+        <a href="#"className="flex">
           <img src="/images/svg/icon-tagsAndSocialMedia-linkedin.svg" alt="" />
         </a>
-        <a href="#">
+        <a href="#"className="flex">
           <img src="/images/svg/icon-tagsAndSocialMedia-email.svg" alt="" />
         </a>
 
-        <button onClick={handleLike}>
+        <button onClick={handleLike} className="flex">
           <img src="/images/svg/icon-tagsAndSocialMedia-like.svg" alt="" />
           <p>{likes}</p>
         </button>
