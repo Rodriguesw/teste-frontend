@@ -14,7 +14,7 @@ export function ListOfImages() {
         const data = await response.json();
         const formattedBooks = data.items.map((item) => ({
           id: item.id,
-          image: item.volumeInfo.imageLinks?.thumbnail || "default_image.png",
+          image: item.volumeInfo.imageLinks?.thumbnail || null, // define null if no image exists
           image_alt: item.volumeInfo.title,
           title: item.volumeInfo.title,
           autor: item.volumeInfo.authors?.[0] || "Autor desconhecido",
@@ -34,7 +34,13 @@ export function ListOfImages() {
     <div className="containerListOfBooks">
       {books.map((item) => (
         <div className="cardBook" key={item.id}>
-          <img src={item.image} alt={item.image_alt} />
+          {item.image ? (
+            <img src={item.image} alt={item.image_alt} />
+          ) : (
+            <div className="imgDefault">
+              <img src="/images/svg/icon-image-default.svg"/>
+              </div>
+          )}
 
           <div className="descriptionBooks">
             <p>{item.title}</p>

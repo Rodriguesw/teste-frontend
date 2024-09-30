@@ -112,6 +112,18 @@
     }
   }
 
+  @media (max-width: 469px) {
+    >button {
+    width: auto;
+    height: auto;
+    padding: 8px 12px;
+
+    >img {
+      height: 24px;
+    }
+  }
+  }
+
   @media (max-width: 420px) {
     >a {
       width: 40px;
