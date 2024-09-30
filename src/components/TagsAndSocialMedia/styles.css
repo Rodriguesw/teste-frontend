@@ -116,14 +116,16 @@
     gap: 1px;
 
     >button {
-    width: 80px;
-    height: auto;
-    padding: 8px 12px;
+      width: 80px;
+      height: auto;
+      padding: 8px 12px;
 
-    >img {
-      height: 24px;
+      gap: 8px;
+
+      >img {
+        height: 24px;
+      }
     }
-  }
   }
 
   @media (max-width: 420px) {
@@ -133,13 +135,13 @@
     }
 
     >button {
-    width: auto;
-    height: auto;
-    padding: 10px 12px;
+      width: auto;
+      height: auto;
+      padding: 8px 10px;
 
-    >img {
-      height: 24px;
+      >img {
+        height: 24px;
+      }
     }
-  }
   }
 }
