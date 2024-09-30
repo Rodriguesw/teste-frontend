@@ -113,8 +113,10 @@
   }
 
   @media (max-width: 469px) {
+    gap: 1px;
+
     >button {
-    width: auto;
+    width: 80px;
     height: auto;
     padding: 8px 12px;
 
