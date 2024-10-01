@@ -17,13 +17,13 @@ export function Header() {
           <p>por onde começar</p>
         </div>
 
-        <div className="time">
+        <div className="informationsTimeDate">
           <img src="/images/svg/icon-header-clock.svg" alt="Icon de um relógio" />
 
           <p>7 min leitura</p>
         </div>
 
-        <div className="date">
+        <div className="informationsTimeDate">
           <img src="/images/svg/icon-header-calendar.svg" alt="Icon de calendário" />
 
           <p>01/Setembro/2024</p>
