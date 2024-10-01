@@ -4,95 +4,65 @@
   box-sizing: border-box;
 }
 
-.lato-thin {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.lato-light {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.lato-regular {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.lato-bold {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.lato-black {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
 .App {
   width: 100%;
   height: auto;
-  padding: 96px 0;
+  padding: 6rem 0;
 
-  gap: 48px;
+  gap: 3rem;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
 }
 
 .containerText {
   width: 100%;
   height: auto;
-  max-width: 960px;
+  max-width: 60rem;
 
-  gap: 28px;
+  gap: 1.75rem;
   display: flex;
   flex-direction: column;
 
   >p {
     margin: 0;
 
-    font-size: 18px;
     font-weight: 400;
     font-style: normal;
-    line-height: 28.8px;
+    font-size: 1.125rem;
+    line-height: 1.8rem;
     color: rgba(33, 38, 47, 1);
     font-family: "Lato", sans-serif;
   }
 
   @media (max-width: 1024px) {
-    padding: 0 78px;
+    padding: 0 4.875rem;
   }
 
   @media (max-width: 769px) {
-    gap: 20px;
+    gap: 1.25rem;
 
     >p {
-      font-size: 15px;
-      line-height: 24px;
+      line-height: 1.5rem;
+      font-size: 0.9375rem;
     }
   }
 
   @media (max-width: 469px) {
-    padding: 0 28px;
+    padding: 0 1.75rem;
 
     >p {
-      font-size: 14px;
-      line-height: 20px;
+      font-size: 0.875rem;
+      line-height: 1.25rem;
     }
   }
 
   @media (max-width: 420px) {
-    padding: 0 16px;
+    padding: 0 1rem;
 
     >p {
-      font-size: 12px;
-      line-height: 16px;
+      line-height: 1rem;
+      font-size: 0.75rem;
     }
   }
 }
@@ -100,94 +70,94 @@
 .containerQuotation {
   width: 100%;
   height: auto;
-  max-width: 1174px;
+  max-width: 73.375rem;
 
   display: flex;
   align-items: center;
   flex-direction: column;
 
-  >span {
-    color: rgba(47, 187, 105, 1);
-    font-size: 48px;
-    font-weight: 900;
+  >span,
+  p {
+    font-size: 3rem;
+    font-weight: 800;
     font-style: normal;
-    line-height: 57.6px;
+    line-height: 3.6rem;
+    color: rgba(47, 187, 105, 1);
     font-family: "Lato", sans-serif;
   }
 
   >p {
     text-align: center;
 
-    font-size: 40px;
     font-weight: 400;
-    line-height: 52px;
+    font-size: 2.5rem;
     font-style: italic;
+    line-height: 3.25rem;
     color: rgba(33, 38, 47, 1);
-    font-family: "Lato", sans-serif;
   }
 
   @media (max-width: 1024px) {
-    padding: 0 28px;
+    padding: 0 1.75rem;
 
     >span {
-      font-size: 48px;
-      line-height: 57.6px;
+      font-size: 3rem;
+      line-height: 3.6rem;
     }
 
     >p {
-      font-size: 28px;
-      line-height: 30px;
+      font-size: 1.75rem;
+      line-height: 1.875rem;
     }
   }
 
   @media (max-width: 769px) {
     >span {
-      font-size: 48px;
-      line-height: 35px;
+      font-size: 3rem;
+      line-height: 2.1875rem;
     }
 
     >span:nth-of-type(2) {
-      font-size: 48px;
-      line-height: 57.6px;
+      font-size: 3rem;
+      line-height: 3.6rem;
     }
 
     >p {
-      font-size: 22px;
-      line-height: 26px;
+      font-size: 1.375rem;
+      line-height: 1.625rem;
     }
   }
 
   @media (max-width: 469px) {
     >span {
-      font-size: 38px;
-      line-height: 35px;
+      font-size: 2.375rem;
+      line-height: 2.1875rem;
     }
 
     >span:nth-of-type(2) {
-      font-size: 38px;
-      line-height: 35px;
+      font-size: 2.375rem;
+      line-height: 2.1875rem;
     }
 
     >p {
-      font-size: 20px;
-      line-height: 26px;
+      font-size: 1.25rem;
+      line-height: 1.625rem;
     }
   }
 
   @media (max-width: 420px) {
     >span {
-      font-size: 32px;
-      line-height: 28px;
+      font-size: 2rem;
+      line-height: 1.75rem;
     }
 
     >span:nth-of-type(2) {
-      font-size: 32px;
-      line-height: 35px;
+      font-size: 2rem;
+      line-height: 2.1875rem;
     }
 
     >p {
-      font-size: 18px;
-      line-height: 22px;
+      font-size: 1.125rem;
+      line-height: 1.375rem;
     }
   }
 }
@@ -195,9 +165,9 @@
 .TitleAndDescription {
   width: 100%;
   height: auto;
-  max-width: 960px;
+  max-width: 60rem;
 
-  gap: 24px;
+  gap: 1.5rem;
   display: flex;
   flex-direction: column;
 
@@ -206,62 +176,63 @@
   a {
     margin: 0;
 
-    font-size: 36px;
-    font-weight: 900;
+    font-weight: 800;
+    font-size: 2.25rem;
     font-style: normal;
-    line-height: 46.8px;
+    line-height: 2.925rem;
     color: rgba(33, 38, 47, 1);
     font-family: "Lato", sans-serif;
   }
 
   >p,
   a {
-    font-size: 18px;
     font-weight: 400;
-    line-height: 28.8px;
+    line-height: 1.8rem;
+    font-size: 1.125rem;
   }
 
   >p>a {
     text-decoration: none;
+
     font-weight: 700;
     color: rgba(88, 155, 255, 1);
   }
 
   @media (max-width: 1024px) {
-    padding: 0 68px;
+    padding: 0 4.25rem;
   }
 
   @media (max-width: 769px) {
-    gap: 12px;
+    padding: 0 3rem;
 
-    padding: 0 48px;
+    gap: 0.75rem;
 
     >h2 {
-      font-size: 28px;
-      line-height: 38px;
+      font-size: 1.75rem;
+      line-height: 2.375rem;
     }
 
     >p,
     a {
-      font-size: 16px;
-      line-height: 26px;
+      font-size: 1rem;
+      line-height: 1.625rem;
     }
   }
 
   @media (max-width: 469px) {
-    padding: 0 36px;
+    padding: 0 2.25rem;
 
-    gap: 8px;
+    gap: 0.5rem;
 
     >h2 {
-      font-size: 22px;
-      line-height: 32px;
+      font-size: 1.375rem;
+      line-height: 2rem;
     }
 
     >p,
     a {
-      font-size: 13px;
-      line-height: 20px;
+      font-size: 0.8125rem;
+      line-height: 1.25rem;
     }
   }
 }

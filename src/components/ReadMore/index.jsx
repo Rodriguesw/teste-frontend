@@ -18,7 +18,7 @@ export function ReadMore() {
       {ReadMoreData.map((item) => (
          <div key={item.id} className="contentReadMore">
          <img src="/images/png/img-header-people.png" alt="Imagem de uma pessoa" />
-         <h4>{item.title}</h4>
+         <h5>{item.title}</h5>
 
          <p>
             {item.description}
