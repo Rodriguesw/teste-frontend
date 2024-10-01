@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { fetchBooks } from "../../service/api/GetBooks.js"; 
+import { GetBooks } from "../../service/api/GetBooks.js"; 
 
 import "./styles.css";
 
@@ -11,7 +11,7 @@ export function ListOfImages() {
   useEffect(() => {
     const loadBooks = async () => {
       try {
-        const booksData = await fetchBooks();
+        const booksData = await GetBooks();
         setBooks(booksData);
         setLoading(false); 
       } catch (error) {
