@@ -2,48 +2,60 @@
 
 //Utilize o comando "npm start" no terminal para rodar o projeto
 
-Este projeto utiliza os media queries
--1024px
--769px
--469px
--420px
-
 *********************************
+<b>INFORMAÇÕES IMPORTANTES:<b/>
+
+Os componentes estão organizados na pasta "components" <br/>
+Todos os componentes do projeto são exportados no Index da pasta "components" para facilitar a importação nas páginas.
+ 
+A chamada da API se encontra em "/service/api/metodo-nome". Exemplo: GetLivros
+
+Os Mocks utilizados nos componentes se encontra em "/utils/nomeDoComponenteData". Ex: ReadMoreData
+
+Todos os commits do projeto estão em inglês.
+
+O projeto é hospedado na Vercel.
+*********************************
+Este projeto utiliza os media queries <br/>
+-1024px <br/>
+-769px <br/>
+-469px <br/>
+-420px <br/>
+
 Padronização de estilos CSS
 
--Ordenado por posicionamento
--Tamanho do elemento
--Displays e margins
--Estilos de cores de fundo/borda/sombra...
--Estilos de tipografia
+-Ordenado por posicionamento <br/>
+-Tamanho do elemento <br/>
+-Displays e margins <br/>
+-Estilos de cores de fundo/borda/sombra... <br/>
+-Estilos de tipografia<br/>
 
 OBS: Ordenado do menor ao maior.
 
-
 Exemplo de padrão:
 
-.exemplo{
-top:5px;
-rigth: 5px;
-posicion: relative;
-
-width: 100%;
-height: auto;
-padding: 16px 8px;
-
-gap:8px;
-margin: 8px;
-display:flex;
-align-itens: center;
-flexdiretion: collumn;
-
-border-radius: 16px;
-background-color: red;
-border: 1 px solid black;
-
-color: orange:
-font-size: 16px;
-font-weight: 400;
-line-height: 16px;
-font-family: 'Roboto';
+.exemplo{ <br/>
+top:5px; <br/>
+rigth: 5px; <br/>
+posicion: relative; <br/>
+<br/>
+width: 100%; <br/>
+height: auto; <br/>
+padding: 16px 8px; <br/>
+<br/>
+gap:8px; <br/>
+margin: 8px; <br/>
+display: flex; <br/>
+align-itens: center; <br/>
+flexdiretion: collumn; <br/>
+<br/>
+border-radius: 16px; <br/>
+background-color: red; <br/>
+border: 1 px solid black; <br/>
+<br/>
+color: orange: <br/>
+font-size: 16px; <br/>
+font-weight: 400; <br/>
+line-height: 16px; <br/>
+font-family: 'Roboto'; <br/>
 }
