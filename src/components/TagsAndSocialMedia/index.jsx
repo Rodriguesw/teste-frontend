@@ -18,24 +18,24 @@ export function TagsAndSocialMedia() {
       </div>
 
       <div className="containerSocialMedia">
-        <a href="#" className="flex">
-          <img src="/images/svg/icon-tagsAndSocialMedia-whatsapp.svg" alt="" />
+        <a href="/" className="flex">
+          <img src="/images/svg/icon-tagsAndSocialMedia-whatsapp.svg" alt="Ícone do Whatsapp" />
         </a>
-        <a href="#"className="flex">
-          <img src="/images/svg/icon-tagsAndSocialMedia-facebook.svg" alt="" />
+        <a href="/"className="flex">
+          <img src="/images/svg/icon-tagsAndSocialMedia-facebook.svg" alt="Ícone do Facebook" />
         </a>
-        <a href="#"className="flex">
-          <img src="/images/svg/icon-tagsAndSocialMedia-x.svg" alt="" />
+        <a href="/"className="flex">
+          <img src="/images/svg/icon-tagsAndSocialMedia-x.svg" alt="Ícone do X" />
         </a>
-        <a href="#"className="flex">
-          <img src="/images/svg/icon-tagsAndSocialMedia-linkedin.svg" alt="" />
+        <a href="/"className="flex">
+          <img src="/images/svg/icon-tagsAndSocialMedia-linkedin.svg" alt="Ícone do LinkedIn" />
         </a>
-        <a href="#"className="flex">
-          <img src="/images/svg/icon-tagsAndSocialMedia-email.svg" alt="" />
+        <a href="/"className="flex">
+          <img src="/images/svg/icon-tagsAndSocialMedia-email.svg" alt="Ícone de e-mail" />
         </a>
 
         <button onClick={handleLike} className="flex">
-          <img src="/images/svg/icon-tagsAndSocialMedia-like.svg" alt="" />
+          <img src="/images/svg/icon-tagsAndSocialMedia-like.svg" alt="Ícone de positivo" />
           <p>{likes}</p>
         </button>
       </div>

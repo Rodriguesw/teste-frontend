@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+
+import { CommentAndLikeData } from "../../utils/CommentAndLikeData";
+
 import "./styles.css";
-import { CommentAndLikeData } from "./CommentAndLikeData";
 
 export function CommentAndLike() {
   const [likes, setLikes] = useState(0);
@@ -22,22 +24,22 @@ export function CommentAndLike() {
           <div className="informationsCommentAndLike">
             <div className="informationDate">
               <img
-                src="/images/svg/icon-commentAndLike-calendar-black.svg"
-                alt=""
+                src="/images/svg/icon-commentAndLike-calendar-white.svg"
+                alt="Ícone de calendário branco"
               />
               <p>{item.date}</p>
             </div>
 
             <div className="informationReadingTime">
               <img
-                src="/images/svg/icon-commentAndLike-clock-black.svg"
-                alt=""
+                src="/images/svg/icon-commentAndLike-clock-white.svg"
+                alt="Ícone de relógio branco"
               />
               <p>{item.readingTime}</p>
             </div>
 
             <button className="buttonCommentAndLike" onClick={handleLike}>
-              <img src="/images/svg/icon-commentAndLike-like.svg" alt="" />
+              <img src="/images/svg/icon-commentAndLike-like.svg" alt="Ícone de positivo" />
               <p>{likes}</p>
             </button>
           </div>

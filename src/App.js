@@ -1,7 +1,5 @@
-import { Header } from "./components/Header";
-
-import "./App.css"
 import { 
+  Header,
   ReadMore,
   ListOfImages ,
   CommentAndLike,
@@ -9,6 +7,8 @@ import {
   DescriptionAndList,
   ImageAndDescription
 } from "./components";
+
+import "./App.css"
 
 export default function App() {
   return (
@@ -36,7 +36,7 @@ export default function App() {
       <div className="TitleAndDescription">
         <h2>Aint oupt sain crays</h2>
 
-        <p>Lorem Ipsum é simplesmente uma <a href="#">simulação de link</a> da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
+        <p>Lorem Ipsum é simplesmente uma <a href="/">simulação de link</a> da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos. Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI.</p>
       </div> 
 
        <ListOfImages/>
